@@ -1,0 +1,105 @@
+/* ===== 1. SELECTORS ===== */
+
+/* Element Selector */
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+}
+
+/* Class Selector */
+.title {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Class Selector */
+.desc {
+    text-align: center;
+    color: #7f8c8d;
+}
+
+/* Table Selector */
+.form-table {
+    background-color: #ffffff;
+    border: 2px solid #3498db;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Input Selector */
+input {
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: #ecf9ff;
+}
+
+/* Button Selector */
+.btn-submit {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-reset {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+/* ===== 2. BOX MODEL ===== */
+
+.form-container {
+    margin: 40px auto;        /* Margin */
+    padding: 20px;            /* Padding */
+    border: 3px solid #2c3e50;/* Border */
+    max-width: 500px;         /* Max Width */
+}
+
+
+/* ===== 3. POSITIONING ===== */
+
+.form-container {
+    position: relative;
+}
+
+.title {
+    position: relative;
+    top: 10px;
+}
+
+
+/* ===== 4. DISPLAY PROPERTY ===== */
+
+.btn-row input {
+    display: inline-block; /* Inline Block */
+    width: 120px;
+    margin: 10px;
+}
+
+
+/* ===== 5. Z-INDEX ===== */
+
+.title {
+    z-index: 2;
+}
+
+
+/* ===== 6. OVERFLOW PROPERTY ===== */
+
+.form-table {
+    overflow: hidden;
+}
+
+
+/* ===== Extra Styling ===== */
+
+tr td {
+    padding: 10px;
+}
+
+input:focus {
+    border: 2px solid #2980b9;
+}
