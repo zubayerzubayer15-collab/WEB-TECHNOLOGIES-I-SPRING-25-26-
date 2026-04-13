@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <script src="u1Script.js"></script>
+</head>
+
+<body>
+
+<!-- Error Card -->
+<div id="errorCard"
+     style="display:none; background:#ffe5e5; color:#b30000; padding:15px; margin-bottom:15px; border:1px solid #ff9999; border-radius:6px;">
+</div>
+
+<h2>User Registration</h2>
+
+<form onsubmit="return validateForm()">
+
+    <label>Full Name</label><br>
+    <input type="text" id="fullname"><br><br>
+
+    <label>Email</label><br>
+    <input type="text" id="email"><br><br>
+
+    <label>Password</label><br>
+    <input type="password" id="password"><br><br>
+
+    <label>Phone</label><br>
+    <input type="text" id="phone"><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
